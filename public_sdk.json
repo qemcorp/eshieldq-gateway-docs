@@ -1,0 +1,449 @@
+{
+  "_comment": "Provenance and delta declaration for this published tree. `verified_id` is the sha256 of the release asset, or the tag's commit OID for a git-tag artifact, as verified against the publisher's SHA256SUMS and against the recorded first-observation digest. `files` declares what was published unchanged, what was stripped, and what was generated. Nothing here is hand-written.",
+  "artifact": "eshieldq-gateway-docs",
+  "shape": "git-tag",
+  "version": "4.0.10",
+  "release_tag": "docs/eshieldq-gateway-docs/v4.0.10",
+  "verified_id": "8810346231b92ef17830f2a4154d98e8366bde83",
+  "public_repo": "qemcorp/eshieldq-gateway-docs",
+  "staged_utc": "2026-09-02T15:32:56Z",
+  "source_files": [
+    ".readthedocs.yaml",
+    "LICENSE.md",
+    "docs/Makefile",
+    "docs/README.md",
+    "docs/make.bat",
+    "docs/mk_docs_pkg.sh",
+    "docs/requirements-package.lock.txt",
+    "docs/requirements-package.txt",
+    "docs/requirements.txt",
+    "docs/source/_version.py",
+    "docs/source/access_control_lists.rst",
+    "docs/source/api.rst",
+    "docs/source/aws.rst",
+    "docs/source/azure.rst",
+    "docs/source/certificates.rst",
+    "docs/source/common_operations.rst",
+    "docs/source/conf.py",
+    "docs/source/device_license.rst",
+    "docs/source/directory_auth.rst",
+    "docs/source/faq.rst",
+    "docs/source/getting_started.rst",
+    "docs/source/google.rst",
+    "docs/source/images/AWS_Cloud_Network.png",
+    "docs/source/images/Google_Cloud_Network.png",
+    "docs/source/images/UI/ACL_MacIP_Rules.png",
+    "docs/source/images/UI/ACL_Rule_Create.png",
+    "docs/source/images/UI/ACL_Rule_list.png",
+    "docs/source/images/UI/ACL_stats.png",
+    "docs/source/images/UI/Certificate_Details.png",
+    "docs/source/images/UI/Certificate_Import.png",
+    "docs/source/images/UI/Certificate_Keys.png",
+    "docs/source/images/UI/Certificates.png",
+    "docs/source/images/UI/Certificates_Signing_Request.png",
+    "docs/source/images/UI/Certificates_Signing_Request_Upload.png",
+    "docs/source/images/UI/Dashboard_1.png",
+    "docs/source/images/UI/Device_License.png",
+    "docs/source/images/UI/Entropy_Service.png",
+    "docs/source/images/UI/IPsec_Activate_Conn_Menu.png",
+    "docs/source/images/UI/IPsec_Activate_SA_Menu.png",
+    "docs/source/images/UI/IPsec_Active_Sessions.png",
+    "docs/source/images/UI/Initial_User_Create_v2.png",
+    "docs/source/images/UI/Network_Change_Interface.png",
+    "docs/source/images/UI/Network_FIB.png",
+    "docs/source/images/UI/Network_Interface_Assign_Roles.png",
+    "docs/source/images/UI/Network_Interfaces.png",
+    "docs/source/images/UI/Network_Routes.png",
+    "docs/source/images/UI/Post_Quantum_IPsec_Options.png",
+    "docs/source/images/UI/RemoteAccess_Active_Sessions.png",
+    "docs/source/images/UI/RemoteAccess_Connection_Create.png",
+    "docs/source/images/UI/RemoteAccess_Connection_Pools.png",
+    "docs/source/images/UI/RemoteAccess_Directory_Configure.png",
+    "docs/source/images/UI/RemoteAccess_Directory_Diagnostics.png",
+    "docs/source/images/UI/RemoteAccess_Directory_Groups.png",
+    "docs/source/images/UI/RemoteAccess_Directory_Summary.png",
+    "docs/source/images/UI/RemoteAccess_Local_Users.png",
+    "docs/source/images/UI/RemoteAccess_Pool_Create.png",
+    "docs/source/images/UI/RemoteAccess_RADIUS_Servers.png",
+    "docs/source/images/UI/RemoteAccess_Saved_Connections.png",
+    "docs/source/images/UI/Shared_Secret_PPK.png",
+    "docs/source/images/UI/Stats_Crypto.png",
+    "docs/source/images/UI/Stats_Errors.png",
+    "docs/source/images/UI/Stats_HW.png",
+    "docs/source/images/UI/Stats_IPsec.png",
+    "docs/source/images/UI/Stats_IPsec_History.png",
+    "docs/source/images/UI/Stats_Iface.png",
+    "docs/source/images/UI/Stats_Runtime.png",
+    "docs/source/images/UI/System_Admin_DNS.png",
+    "docs/source/images/UI/System_Admin_Logs.png",
+    "docs/source/images/UI/System_Admin_Status.png",
+    "docs/source/images/UI/System_Admin_Syslog.png",
+    "docs/source/images/UI/System_Admin_Update.png",
+    "docs/source/images/UI/System_Admin_Users.png",
+    "docs/source/images/UI/System_Health.png",
+    "docs/source/images/UI/System_Hostname.png",
+    "docs/source/images/UI/System_Reboot.png",
+    "docs/source/images/UI/System_Report.png",
+    "docs/source/images/UI/System_Roles.png",
+    "docs/source/images/UI/System_Security.png",
+    "docs/source/images/UI/System_TLS.png",
+    "docs/source/images/UI/User_Settings_Appearance.png",
+    "docs/source/images/UI/User_Settings_Delete.png",
+    "docs/source/images/UI/User_Settings_OTP.png",
+    "docs/source/images/UI/User_Settings_Profile.png",
+    "docs/source/images/UI/rest_api_docs.png",
+    "docs/source/images/azure-vm-setup.png",
+    "docs/source/images/azure-vnet.png",
+    "docs/source/images/cli-otp-qrcode.png",
+    "docs/source/images/gateway-overview.png",
+    "docs/source/images/mutual_tls_error.png",
+    "docs/source/index.rst",
+    "docs/source/ipsec.rst",
+    "docs/source/license.rst",
+    "docs/source/licenses.txt",
+    "docs/source/network.rst",
+    "docs/source/openapi.json",
+    "docs/source/overview.rst",
+    "docs/source/quick_start.rst",
+    "docs/source/release_notes.rst",
+    "docs/source/remote_access.rst",
+    "docs/source/remote_access_clients.rst",
+    "docs/source/security_config.rst",
+    "docs/source/site_to_site.rst",
+    "docs/source/statistics.rst",
+    "docs/source/system_monitor.rst",
+    "docs/source/troubleshooting.rst",
+    "docs/source/ui_licenses.txt",
+    "docs/source/updates.rst",
+    "docs/source/user_management.rst",
+    "docs/trim_assets.py"
+  ],
+  "files": {
+    "VERBATIM": {
+      ".readthedocs.yaml": {
+        "sha256": "41ae557950248c03ba27f7a24cbe36a6e505b601bc0811a5485fd1815926277e"
+      },
+      "LICENSE.md": {
+        "sha256": "953e6299c0c7618b9d2e2b4e35343bf6feb5170ccf5cff96267839195120f1c6"
+      },
+      "docs/Makefile": {
+        "sha256": "e33bf74d59130029ba24168a813112dd923d7044d780ce942db6645d93f56acf"
+      },
+      "docs/make.bat": {
+        "sha256": "e7302d938728984369c2a45c22e67016c7472a1d46ebd4fee145261aa4bb7e9d"
+      },
+      "docs/requirements.txt": {
+        "sha256": "3df22e2362c85d7d2e75d82a48b9b18f37d4242e128caa5b1f0edb602c4ddde8"
+      },
+      "docs/source/_version.py": {
+        "sha256": "baf4143e4e58d39f29ca5c29a947c25d1ed477466aa8fb5204b5189537b4f2b4"
+      },
+      "docs/source/access_control_lists.rst": {
+        "sha256": "004c9670f15ed878e919103d5f008eb1da430c861517e9cabb90951d282dd31d"
+      },
+      "docs/source/api.rst": {
+        "sha256": "b13910ba43a8967e243e443f3c49fc843e0c7babf53c9a8e7151e00680e307a7"
+      },
+      "docs/source/aws.rst": {
+        "sha256": "87fa29a4b521559b244363bfa1b35aa4fcc43a3fa3da224559aa83c8c37ed785"
+      },
+      "docs/source/azure.rst": {
+        "sha256": "c1877e6eabcf0bef2d42d30193fc1e309e4744cd85bdcc76e9358bfd0d8d0bf5"
+      },
+      "docs/source/certificates.rst": {
+        "sha256": "20defb244226407364eaf0dc1711c426288f1ea1b2f6221ea870082ab6b103ae"
+      },
+      "docs/source/common_operations.rst": {
+        "sha256": "6bbb4720c47388721d9b3492d2381cbd7eb3ca5fd8cbc3a362c360b82b65ab08"
+      },
+      "docs/source/conf.py": {
+        "sha256": "2276539e6e80e2d1f4f5867e258e3e1f0eacd37c6e0534f66cf92c62e22a35b2"
+      },
+      "docs/source/device_license.rst": {
+        "sha256": "090e83a21b0f81c5b2747404e8f0c6cff690c9207e70803242b441217e432159"
+      },
+      "docs/source/directory_auth.rst": {
+        "sha256": "a7661a7cdf179d4df4e63b6c138051e4f39649a87d79444e27f7e4ac554eccd0"
+      },
+      "docs/source/faq.rst": {
+        "sha256": "af40dec92dad74bb52c23ea6b4cad8e653aa2451031d6ca1dc42d80816aa09d2"
+      },
+      "docs/source/getting_started.rst": {
+        "sha256": "5fe516469fb3322fb5f99afe2edccc377a5e60ffae37c071492739b78b863d34"
+      },
+      "docs/source/google.rst": {
+        "sha256": "aa7a77de487e8cc0e727be6d9efdea7521bab9a3222dd294e6a168d44198bd60"
+      },
+      "docs/source/images/AWS_Cloud_Network.png": {
+        "sha256": "c2a2f6a248ffa80b8c9011e4f2ef0d4e52d6a574fed11a47448536e172a6d3c9"
+      },
+      "docs/source/images/Google_Cloud_Network.png": {
+        "sha256": "f4a784212f684a15d137df24e407a38632e407c8779cdee6faf93eb77782263e"
+      },
+      "docs/source/images/UI/ACL_MacIP_Rules.png": {
+        "sha256": "2779e2c3cb1edff28bb683e66881055ddb5737ea82c556f44dbe8afc1e43de62"
+      },
+      "docs/source/images/UI/ACL_Rule_Create.png": {
+        "sha256": "e6c4b1f7746c73af117bb757a3e8ade356c1982c8139f5bc2b2b04e00b812357"
+      },
+      "docs/source/images/UI/ACL_Rule_list.png": {
+        "sha256": "8ed6ff762d9368d7d705991bf83ed9db7a759c014b8fb7c65d21dc5753e48323"
+      },
+      "docs/source/images/UI/ACL_stats.png": {
+        "sha256": "55ad4ed30321f6095f500bf71ea0fc717186dd559a61d66e5c7b84d3136c06a1"
+      },
+      "docs/source/images/UI/Certificate_Details.png": {
+        "sha256": "ceed1f4ddb1bbe63bc82d096f7b3f1b34e523d9a87c0bed54ece8603763208bc"
+      },
+      "docs/source/images/UI/Certificate_Import.png": {
+        "sha256": "feeefd42c488178a9d026666d0b24fe81fab7fc0f95314118de8c80db1cbd986"
+      },
+      "docs/source/images/UI/Certificate_Keys.png": {
+        "sha256": "d7fbe0a9bcc355eb5abca55d310d531bd18ffc82943c176c6f9a6fb031ea45cd"
+      },
+      "docs/source/images/UI/Certificates.png": {
+        "sha256": "2e3fc17db1dc29aa9acedf150c471144bcb8c83a3962370c001794ef12591673"
+      },
+      "docs/source/images/UI/Certificates_Signing_Request.png": {
+        "sha256": "12601e6c3f4212ddd0a02abc48cea6b21ed513a2aca2d750b233e38159aee92c"
+      },
+      "docs/source/images/UI/Certificates_Signing_Request_Upload.png": {
+        "sha256": "73e48303a19b40bcac8171fc29b01e5c42c9b3d57fc66d63809c5c422716f990"
+      },
+      "docs/source/images/UI/Dashboard_1.png": {
+        "sha256": "08ce79c6c68ee637d03e7ab808922baf22d5806240b52a1253edd00b551fb4bd"
+      },
+      "docs/source/images/UI/Device_License.png": {
+        "sha256": "e58572f83a6ccb08955d32529c7a63e5fb982dd21fc4183c73b5b7d95c6fca1c"
+      },
+      "docs/source/images/UI/Entropy_Service.png": {
+        "sha256": "6d1b296898b871b8e040dd0a1be1eab33769a84560283ad1953409618980251c"
+      },
+      "docs/source/images/UI/IPsec_Activate_Conn_Menu.png": {
+        "sha256": "6d58b0cd9e46afb053e0854d0b197b5560d6bdab54b47e75baec92a0e622bcd3"
+      },
+      "docs/source/images/UI/IPsec_Activate_SA_Menu.png": {
+        "sha256": "6d13a2f2ac7dbdf9fc252a1124c8d5ad3e2e6003821910d79db40c59c1684648"
+      },
+      "docs/source/images/UI/IPsec_Active_Sessions.png": {
+        "sha256": "6d13a2f2ac7dbdf9fc252a1124c8d5ad3e2e6003821910d79db40c59c1684648"
+      },
+      "docs/source/images/UI/Initial_User_Create_v2.png": {
+        "sha256": "045f268fd966e4ee6ae7becb7b546f5809c4a5a6bb8c08cc4adfa18b75373746"
+      },
+      "docs/source/images/UI/Network_Change_Interface.png": {
+        "sha256": "743b63a448b5b95553971394ffe5fe3cd867369c6391173aeccd218365a7f15f"
+      },
+      "docs/source/images/UI/Network_FIB.png": {
+        "sha256": "b45cb8ecb2ac9fccf706b376091bea15dd1886e56b72c2ba754e69196bc5ac78"
+      },
+      "docs/source/images/UI/Network_Interface_Assign_Roles.png": {
+        "sha256": "1eab020f3a6614267be0b81a8a3ed4714b3ef01152f7fd50851ccf5c93ae24ea"
+      },
+      "docs/source/images/UI/Network_Interfaces.png": {
+        "sha256": "5246cb6f80e06212f5fa1ad8bfc3cc17354307e291bf7ae127c5591fcaf53f97"
+      },
+      "docs/source/images/UI/Network_Routes.png": {
+        "sha256": "895fbaefb3a63cbc6ac9c6f10ec36f48521aa161349bcb9eb04bc142326433e4"
+      },
+      "docs/source/images/UI/Post_Quantum_IPsec_Options.png": {
+        "sha256": "221e750d3e200705e0cf6642c8db1c02b6c0ed857c82ad89b196a7d0023685fe"
+      },
+      "docs/source/images/UI/RemoteAccess_Active_Sessions.png": {
+        "sha256": "6d13a2f2ac7dbdf9fc252a1124c8d5ad3e2e6003821910d79db40c59c1684648"
+      },
+      "docs/source/images/UI/RemoteAccess_Connection_Create.png": {
+        "sha256": "4550f6fe2f82597fc1aa3738bf521dfe59972a006cfe54bd71f53d99f16e87b4"
+      },
+      "docs/source/images/UI/RemoteAccess_Connection_Pools.png": {
+        "sha256": "221e750d3e200705e0cf6642c8db1c02b6c0ed857c82ad89b196a7d0023685fe"
+      },
+      "docs/source/images/UI/RemoteAccess_Directory_Configure.png": {
+        "sha256": "9aab09265f6010e26e08139ce15b793791dbf4fd6cd6269b74a3f3fabaaa5641"
+      },
+      "docs/source/images/UI/RemoteAccess_Directory_Diagnostics.png": {
+        "sha256": "cdf2826b2b191c4db304e123b7f9b6d5e73b0b1892b506b31aee0682dc56aa3b"
+      },
+      "docs/source/images/UI/RemoteAccess_Directory_Groups.png": {
+        "sha256": "1b4d9fb361fa0076676d99faec83cb9951885a3aa05c5f884282cfbf130cb8a3"
+      },
+      "docs/source/images/UI/RemoteAccess_Directory_Summary.png": {
+        "sha256": "5b3b593784393f0a126b05fd22408d535cf4a3b55fcc38c99915d21f662cb204"
+      },
+      "docs/source/images/UI/RemoteAccess_Local_Users.png": {
+        "sha256": "b88d30f63e69cc7747ba6bac2f831ef0af11bd10fcd1531a3a3fcfd04d293924"
+      },
+      "docs/source/images/UI/RemoteAccess_Pool_Create.png": {
+        "sha256": "2b7b65d5e7534c1996de6aba5a02576db6bca59a634c461c2a90009624eca66b"
+      },
+      "docs/source/images/UI/RemoteAccess_RADIUS_Servers.png": {
+        "sha256": "f12dd744ada39ffcbc2c875f0cb6183cdb8307413e260fecbf29fa7d3a6f9887"
+      },
+      "docs/source/images/UI/RemoteAccess_Saved_Connections.png": {
+        "sha256": "6d58b0cd9e46afb053e0854d0b197b5560d6bdab54b47e75baec92a0e622bcd3"
+      },
+      "docs/source/images/UI/Shared_Secret_PPK.png": {
+        "sha256": "a2d77615dba523c068bf69a6081c77a86d56cda808102e53c9f160bbaa2b106a"
+      },
+      "docs/source/images/UI/Stats_Crypto.png": {
+        "sha256": "f90e2a642fbd2226ce0bed12ec9a6beeb7e90db260bb437d5e4ac06e30000614"
+      },
+      "docs/source/images/UI/Stats_Errors.png": {
+        "sha256": "4e2aaadf4c75cd7c1a19d4e91b8edb2a715291e4cf9707dacb6ff8c557042c30"
+      },
+      "docs/source/images/UI/Stats_HW.png": {
+        "sha256": "cb62bc0b2fb0ca6822c5b55e93bd340215ac5b4efc0f9457163ecea2667b10c0"
+      },
+      "docs/source/images/UI/Stats_IPsec.png": {
+        "sha256": "cc03b815fcaf28079b25d4b059c96a1274296477466729777974dcd3eeb61672"
+      },
+      "docs/source/images/UI/Stats_IPsec_History.png": {
+        "sha256": "26618cb4bf42dc3d3d17aa5bbac0651896381531da35798f00d060498f846c8b"
+      },
+      "docs/source/images/UI/Stats_Iface.png": {
+        "sha256": "8cd8f149d6f4ea8f26747161f9dc052fad9fd4b891599e80c2a89112ef598925"
+      },
+      "docs/source/images/UI/Stats_Runtime.png": {
+        "sha256": "6c14bd10cc2631acbc4bafc746121c02a2d7937425a1396743c436102563d1ff"
+      },
+      "docs/source/images/UI/System_Admin_DNS.png": {
+        "sha256": "fc9f32a686a6b7872d945274fadbd0dcd38fbc2653c1c1c6d8289cb4ba08fd6a"
+      },
+      "docs/source/images/UI/System_Admin_Logs.png": {
+        "sha256": "e4cc0d07bc888b2f9cd6c2640efa8d2865facb2b8374719c717badb12e22bfea"
+      },
+      "docs/source/images/UI/System_Admin_Status.png": {
+        "sha256": "97b951c45c53c92e1cbfb56e8356ac176f135583d31657836359d514deaf321a"
+      },
+      "docs/source/images/UI/System_Admin_Syslog.png": {
+        "sha256": "3e6c5b363f35dc4498c7a087b493b1c396425060fab9060b3640809730f08e5c"
+      },
+      "docs/source/images/UI/System_Admin_Update.png": {
+        "sha256": "9bd66f515c3cfc821eaa9d9b9692e63343ffc1134069636df2b96ff0b179868b"
+      },
+      "docs/source/images/UI/System_Admin_Users.png": {
+        "sha256": "5bc61dcc72dd19eda8ad821de6a118178ede76511bdba7e5d63a06e817d6b7a2"
+      },
+      "docs/source/images/UI/System_Health.png": {
+        "sha256": "37e99130d7ea55ed056e9d6d92264e7417eed0b9059db7a2be4ee94092bd8f20"
+      },
+      "docs/source/images/UI/System_Hostname.png": {
+        "sha256": "4d061be11738f839bed294bbc9edd21e931697cdc36fc2d2796af10b1bae4110"
+      },
+      "docs/source/images/UI/System_Reboot.png": {
+        "sha256": "67b8da2b2a9979cbd0ed02de04282460e1cf9c3df7d32520dd6ab410044b8644"
+      },
+      "docs/source/images/UI/System_Report.png": {
+        "sha256": "ff11e527d3a6c83d5203a25dc48063c97bb3a3d7634ac847006502fe2ff5634c"
+      },
+      "docs/source/images/UI/System_Roles.png": {
+        "sha256": "c8f08300a7bf57124897ae54d3e5cdcbe010b3594586593fe41ab71bd038ba86"
+      },
+      "docs/source/images/UI/System_Security.png": {
+        "sha256": "7313ae09a13eca0621cb90be784f165c4f3fc1b9260db86d113554bbf68bf5e0"
+      },
+      "docs/source/images/UI/System_TLS.png": {
+        "sha256": "b7a064264d3d3fe5975ceead2775a3ea2b2f341fb78d31ef5720602b820a2c50"
+      },
+      "docs/source/images/UI/User_Settings_Appearance.png": {
+        "sha256": "2e8d1da36ce19b89207328255654bb84c1ceb6bf3a32d5b2080ea0362f2057d3"
+      },
+      "docs/source/images/UI/User_Settings_Delete.png": {
+        "sha256": "a2965f3d9fef40497954fc9acab569fb76f24600ed0dd5fac0ca711f53511f4b"
+      },
+      "docs/source/images/UI/User_Settings_OTP.png": {
+        "sha256": "9b10eeb7b31de7a75f2b80aca5b02c90ca17250fa21d8d3196574b9216b78afa"
+      },
+      "docs/source/images/UI/User_Settings_Profile.png": {
+        "sha256": "e3df5f8afcd5196fc743090d3474a750c46e67f4ec6c5c060a2b98762f13c733"
+      },
+      "docs/source/images/UI/rest_api_docs.png": {
+        "sha256": "693e9a614fb9022eb99599c71bc805afa37f31cd35f1fe335896a096009bdfd1"
+      },
+      "docs/source/images/azure-vm-setup.png": {
+        "sha256": "aebf5610808b274712c32b277d14cd8c3e7f4392868ed0e3d2e652d0bb0533a7"
+      },
+      "docs/source/images/azure-vnet.png": {
+        "sha256": "cec4c2e24a04ce8bacb61bdf5c3061b2c542ff40bbbf7e1e8d6f2cbe5e3eb9f4"
+      },
+      "docs/source/images/cli-otp-qrcode.png": {
+        "sha256": "478b04376b5986d47969f123bc870b79a78669e153fb385c64a1d5075fa0a56a"
+      },
+      "docs/source/images/gateway-overview.png": {
+        "sha256": "5505de4adc8a2ca8157558d53637611374b69f5d366f3c8de5f5e2d1dd0514fd"
+      },
+      "docs/source/images/mutual_tls_error.png": {
+        "sha256": "9e2bb9056adff5a94091a05400306b79cf7079490aac528493bd99619c785d7c"
+      },
+      "docs/source/index.rst": {
+        "sha256": "85a8ab325f28d2369f39422b37302b5d53cf1dea2d5b451001270c6ab00c46a4"
+      },
+      "docs/source/ipsec.rst": {
+        "sha256": "35d24fbbd5c0c60006b8a6d3956e403655277defb1f865d2b2beb6c54b4031ae"
+      },
+      "docs/source/license.rst": {
+        "sha256": "ceb9cd51cd28586492dc7d557de2730a73fb9db6be1867e5463b848174592222"
+      },
+      "docs/source/licenses.txt": {
+        "sha256": "dab0430f0b5ac84df68579aba7930d36b6150211db7d39dd42204efc54e82417"
+      },
+      "docs/source/network.rst": {
+        "sha256": "17db3a693aa76022166e59d77c43b35470a66ca7defc55d1f00eb54a62547ffb"
+      },
+      "docs/source/openapi.json": {
+        "sha256": "010a2f88eaff2b9fe35f5d37f7f60b4328bf9b0bc2c7eeabf0791b8fc479def1"
+      },
+      "docs/source/overview.rst": {
+        "sha256": "7fc7654bb7bfea70db18318d2e54a953282efcc925e823ed23ef455209c037ed"
+      },
+      "docs/source/quick_start.rst": {
+        "sha256": "af38d5e95a491edbf084c5780c83955bf90b649861adf7e63886d5b4db514b06"
+      },
+      "docs/source/release_notes.rst": {
+        "sha256": "e1ed2c7ea1e64ddad0974b78cc333f95ac6d75887433c1e0f6947aed1af70046"
+      },
+      "docs/source/remote_access.rst": {
+        "sha256": "f04a1c74653c1a5ab2f69e59ca6f8d9d4826395ccdb74e3bb5702da1fc57c19f"
+      },
+      "docs/source/remote_access_clients.rst": {
+        "sha256": "a0e12d7cc816e014b1a95615f4d7eeafcd2e3a9f3bbe07825b8b2ce204a758de"
+      },
+      "docs/source/security_config.rst": {
+        "sha256": "b4e5a2b9caedfd959809d2a94c46bf0dca2acd89fa0e562dae1d9d25997f2637"
+      },
+      "docs/source/site_to_site.rst": {
+        "sha256": "a3d45471006a22fb258bd0f573be4ee9fd5c4fb55696b0cc99fa5b1de4689545"
+      },
+      "docs/source/statistics.rst": {
+        "sha256": "b69ef15ea84886ee7a25b2bd0a6f993b35943ff8fd60999608c43d0f6f2c1926"
+      },
+      "docs/source/system_monitor.rst": {
+        "sha256": "b0b55c8eff2252011fd47d8195260567332094a80cb2fe69a0de5a4122757491"
+      },
+      "docs/source/troubleshooting.rst": {
+        "sha256": "39a0b6dd893fcd3ae2c88086fb92d8c62b71d8b62915716ca18300888a08f0d1"
+      },
+      "docs/source/ui_licenses.txt": {
+        "sha256": "1fdb5d5e840f30409dba1f5c6fe30be94f3de8e0680e87e1d4f8c194b5c697ce"
+      },
+      "docs/source/updates.rst": {
+        "sha256": "fdf22f87e076fbcd3116a9582f2744cef5cd9ab72f87f832b8cb2a68b4fe9ab1"
+      },
+      "docs/source/user_management.rst": {
+        "sha256": "df4e3a3a81cce2b06bbf12cb101a24808c04706d94255a4cf882e8490207e790"
+      }
+    },
+    "REMOVED": [
+      "docs/README.md",
+      "docs/mk_docs_pkg.sh",
+      "docs/requirements-package.lock.txt",
+      "docs/requirements-package.txt",
+      "docs/trim_assets.py"
+    ],
+    "GENERATED": [
+      "README.md",
+      "SECURITY.md",
+      "public_sdk.json"
+    ]
+  }
+}
